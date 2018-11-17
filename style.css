@@ -1,0 +1,32 @@
+body{
+    font-family: 'Niramit', sans-serif;
+}
+
+.nameList {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.nameList h2 {
+    text-align: center;
+    border: 2px solid #75c075;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nameList ul{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0;
+    display: grid;
+    list-style: none;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.nameList li {
+    padding: 5px;
+    margin: 1px;
+    min-width: 40px;
+    border: 2px solid #75c075;
+    color: #444343;
+}
